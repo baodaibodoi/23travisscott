@@ -1,0 +1,48 @@
+.container {
+    position: relative;
+    margin: 0 auto;
+  }
+  .container .noi_dung{
+    position: absolute;
+    top: 0;
+    background: rgb(0, 0);
+    color: #f1f1f1; 
+    width: 100%; 
+    box-sizing:border-box;
+    padding: 80px;
+  
+  }
+  .container .san{
+      position: absolute;
+      top: 0;
+      background: rgb(0, 0);
+      color: #f1f1f1; 
+      
+      padding: 230px;
+  }
+  .container .ban{
+      position: absolute;
+      padding-bottom: 0;
+      background:  rgb(0, 0);
+      color: #f1f1f1; 
+      
+  }
+  .container .be_n{
+      position: absolute;
+      bottom: 0;
+      background: rgb(0, 0);
+      color: #f1f1f1; 
+     
+      padding: 10px;
+      padding-left: 80px;
+  }
+  .container .zen{
+      position: absolute;
+      bottom : 0;
+      background: rgb(0, 0);
+      color: #f1f1f1; 
+      
+      float: right;
+      padding: 10px;
+      padding-left: 480px;
+  }

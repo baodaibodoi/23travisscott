@@ -1,0 +1,31 @@
+.khoi1 {
+  padding: 50px;
+}
+.khoi1 #k11 .icon {
+  list-style: none;
+  width: 100px auto;
+  float: left;
+}
+.khoi1 #k11 .text {
+  float: left;
+  padding: 20px;
+  size: +3 auto;
+}
+.khoi1 #k12 .icon1 {
+  list-style: none;
+  padding: 20px;
+  width: 100px;
+  float: right;
+}
+.khoi1 #k12 .text {
+  float: right;
+  padding: 20px;
+}
+.khoi1 #k12 .menu-p1 {
+  color: aqua;
+  float: right;
+}
+.khoi1 #k12 .menu-p1 a {
+  text-decoration: none;
+  padding: 10px;
+}

@@ -1,0 +1,85 @@
+@mixin text-font{
+    padding: 20px;
+}
+
+.khoi1{
+    padding: 50px ;
+    
+#k11{
+    .icon{
+        list-style: none;
+        width: 100px auto;
+        float: left;
+    }
+    .text{float:left;padding: 20px;size: +3 auto;}
+}
+#k12{
+    
+    .icon1{
+        list-style: none;
+        padding: 20px;
+        width: 100px;
+        float: right ;
+    }
+    .text{float:right;padding:  20px;}
+    .menu-p1{
+        color: aqua;
+        float: right ;
+        a{text-decoration: none; padding: 10px;}
+    }
+}
+#k21{
+    float:left;
+    padding-top: 100px;
+    height: 500px;
+    .text-1{
+        float: left; 
+        padding: 10px;
+        border: 1px dashed red;
+        
+    }
+    p .font{
+        padding: 10px;
+        float: left;
+        text-shadow: 3px 3px 2px white;
+        h1{text-transform: uppercase;font-size: +6;}
+    }
+
+}
+#k22{
+    height: 500px;
+    float: right; 
+    img{height:500px;padding-bottom: 40px;}
+}
+}
+.khoi2{ 
+    margin-top: 2px;
+    padding: 64px 210px;
+    b{color:white;}
+    img{background-repeat: no-repeat;width: 130%;border-radius: 10%;}
+    #anh21{float:left; height: 400px;width: 590px;  @include text-font();}
+    #anh22{float:right; height: 190px;width: 590px;margin-bottom: 10px;@include text-font();}
+    #anh23{float:right; height: 190px;width: 590px;margin-top: 10px;@include text-font();}
+}
+.khoi3{
+    margin: 500px;
+    text-align:center; 
+    .text-first{
+        margin: auto;
+        width: 40%;    
+        padding: 15px;
+        background-color: chocolate;
+        height: 50px;
+    }
+    p h1{color: rgb(119,102,90);}
+    h1{text-transform: uppercase;font-size: +6;}
+    .product{
+    padding: 70px;
+    input{ background-color: rgb(191 ,24,24);color: white;}
+    #product{padding: 30px;
+        margin:10%;float: left;
+    }
+    } 
+}
+
+

@@ -1,0 +1,204 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.image-slider{
+	display: grid;
+	grid-template-columns: repeat(1, 1fr);
+	grid-gap: 20px;
+	padding: 30px;
+    position: relative;
+    margin: auto;
+    border: 1px solid #ddd;
+}
+.image-slider:hover
+    {
+        box-shadow: 4px 4px 4px grey;
+    }
+.image img{
+	height: 100%;
+	object-fit: cover;
+	border-radius: 12px;
+	
+}
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+.dot {
+  cursor:pointer;
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.active, .dot:hover {
+  background-color: yellow;
+}
+.slider {
+  -webkit-animation-name: slider;
+  -webkit-animation-duration: 3s;
+  animation-name: slider;
+  animation-duration: 3s;
+}
+@-webkit-keyframes slider {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+@keyframes slider {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+.brand {
+  text-align: center;
+	font-weight: 300;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+}
+
+.brand span {
+  color: #ffffff;
+}
+
+.wrapper {
+  box-shadow: 0 0 20px 0 rgba(57, 82, 163, 0.7);
+}
+
+.wrapper > * {
+  padding: 1em;
+}
+.email-info {
+ 
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+
+.email-info h3,
+.email-info ul {
+  text-align: center;
+  margin: 0 0 1rem 0;
+}
+
+.contact form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+}
+
+.contact form label {
+  display: block;
+}
+
+.contact form p {
+  margin: 0;
+}
+.contact form button,
+.contact form input,
+.contact form {
+  width: 100%;
+  padding: 1em;
+  border-radius: 4px;
+}
+
+.contact form {
+  resize: none;
+}
+
+.contact form button {
+  background: red;
+  border: 0;
+  color: #e4e4e4;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.contact form button:hover,
+.contact form button:focus {
+  background: #6A0888;
+  color: #ffffff;
+  outline: 0;
+  transition: background-color 2s ease-out;
+}
+@media only screen and (min-width: 700px) {
+  .wrapper {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+  }
+
+  .wrapper > * {
+    padding: 2em;
+  }
+
+  .email-info {
+    border-radius: 4px 0 0 4px;
+  }
+
+  .contact {
+    border-radius: 0 4px 4px 0;
+  }
+  .email-info h3,
+  .email-info ul,
+  .brand {
+    text-align: left;
+  }
+}
+.container {
+  position: relative;
+  margin: 0 auto;
+}
+.container .noi_dung{
+  position: absolute;
+  top: 0;
+  background: rgb(0, 0);
+  color: #f1f1f1; 
+  width: 100%; 
+  box-sizing:border-box;
+  padding: 80px;
+
+}
+.container .san{
+	position: absolute;
+	top: 0;
+	background: rgb(0, 0);
+    color: #f1f1f1; 
+    
+    padding: 230px;
+}
+.container .ban{
+	position: absolute;
+	padding-bottom: 0;
+	background:  rgb(0, 0);
+	color: #f1f1f1; 
+    
+}
+.container .be_n{
+	position: absolute;
+	bottom: 0;
+	background: rgb(0, 0);
+    color: #f1f1f1; 
+   
+    padding: 10px;
+    padding-left: 80px;
+}
+.container .zen{
+	position: absolute;
+	bottom : 0;
+	background: rgb(0, 0);
+    color: #f1f1f1; 
+    
+	float: right;
+	padding: 10px;
+	padding-left: 480px;
+}

@@ -1,0 +1,122 @@
+.khoi1 {
+  padding: 50px;
+}
+.khoi1 #k11 .icon {
+  list-style: none;
+  width: 100px auto;
+  float: left;
+}
+.khoi1 #k11 .text {
+  float: left;
+  padding: 20px;
+  size: +3 auto;
+}
+.khoi1 #k12 .icon1 {
+  list-style: none;
+  padding: 20px;
+  width: 100px;
+  float: right;
+}
+.khoi1 #k12 .text {
+  float: right;
+  padding: 20px;
+}
+.khoi1 #k12 .menu-p1 {
+  color: aqua;
+  float: right;
+}
+.khoi1 #k12 .menu-p1 a {
+  text-decoration: none;
+  padding: 10px;
+}
+.khoi1 #k21 {
+  float: left;
+  padding-top: 100px;
+  height: 500px;
+}
+.khoi1 #k21 .text-1 {
+  float: left;
+  padding: 10px;
+  border: 1px dashed red;
+}
+.khoi1 #k21 p .font {
+  padding: 10px;
+  float: left;
+  text-shadow: 3px 3px 2px white;
+}
+.khoi1 #k21 p .font h1 {
+  text-transform: uppercase;
+  font-size: +6;
+}
+.khoi1 #k22 {
+  height: 500px;
+  float: right;
+}
+.khoi1 #k22 img {
+  height: 500px;
+  padding-bottom: 40px;
+}
+
+.khoi2 {
+  margin-top: 2px;
+  padding: 64px 210px;
+}
+.khoi2 b {
+  color: white;
+}
+.khoi2 img {
+  background-repeat: no-repeat;
+  width: 130%;
+  border-radius: 10%;
+}
+.khoi2 #anh21 {
+  float: left;
+  height: 400px;
+  width: 590px;
+  padding: 20px;
+}
+.khoi2 #anh22 {
+  float: right;
+  height: 190px;
+  width: 590px;
+  margin-bottom: 10px;
+  padding: 20px;
+}
+.khoi2 #anh23 {
+  float: right;
+  height: 190px;
+  width: 590px;
+  margin-top: 10px;
+  padding: 20px;
+}
+
+.khoi3 {
+  margin: 500px;
+  text-align: center;
+}
+.khoi3 .text-first {
+  margin: auto;
+  width: 40%;
+  padding: 15px;
+  background-color: chocolate;
+  height: 50px;
+}
+.khoi3 p h1 {
+  color: #77665a;
+}
+.khoi3 h1 {
+  text-transform: uppercase;
+  font-size: +6;
+}
+.khoi3 .product {
+  padding: 70px;
+}
+.khoi3 .product input {
+  background-color: #bf1818;
+  color: white;
+}
+.khoi3 .product #product {
+  padding: 30px;
+  margin: 10%;
+  float: left;
+}
